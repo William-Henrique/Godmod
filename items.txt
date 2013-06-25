@@ -1,0 +1,2402 @@
+module Base
+{
+	
+	
+	/******Project Zomboid\media\scripts\items.txt******/
+
+/************************Weapon************************/
+
+	item Axe
+	{
+		MaxRange	=	1.5,
+		WeaponSprite	=	Fireaxe,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3.5,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.002,
+		Categories	=	Axe,
+		ConditionLowerChanceOneIn	=	30,
+		Weight	=	3,
+		SplatNumber	=	1,
+		PushBackMod	=	0.3,
+		MaxDamage	=	2.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	2,
+		DoorDamage	=	35,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	20,
+		WeaponWeight	=	3,
+		DisplayName	=	Axe,
+		MinRange	=	0.61,
+		SwingTime	=	3.5,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		SplatSize	=	5,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	Axe,
+		RunAnim	=	Run_Weapon2,
+	}
+
+	item BareHands
+	{
+		ImpactSound	=	null,
+		MaxRange	=	1.2,
+		WeaponSprite	=	null,
+		MinAngle	=	0.2,
+		MinimumSwingTime	=	3.5,
+		Type	=	Weapon,
+		SwingAnim	=	Shove,
+		KnockBackOnNoDeath	=	TRUE,
+		WeaponWeight	=	0,
+		DisplayName	=	Axe,
+		Categories	=	Unarmed,
+		SwingAmountBeforeImpact	=	0.1,
+		SwingTime	=	3.5,
+		MinDamage	=	1,
+		SplatNumber	=	0,
+		Weight	=	0,
+		PushBackMod	=	0.85,
+		MaxDamage	=	1.5,
+		SplatBloodOnNoDeath	=	FALSE,
+		MaxHitCount	=	3,
+		Icon	=	Axe,
+		DoorDamage	=	0,
+	}
+
+	item BaseballBat
+	{
+		MaxRange	=	1.5,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blunt,
+		ConditionLowerChanceOneIn	=	30,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.2,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	2,
+		DisplayName	=	Baseball Bat,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	BaseballBat,
+		RunAnim	=	Run_Weapon2,
+	}
+
+	item BaseballBatNails
+	{
+		MaxRange	=	1.5,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blunt,
+		ConditionLowerChanceOneIn	=	30,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2,
+		DisplayName	=	Nailed Baseball Bat,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	1,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	BaseballBat,
+		RunAnim	=	Run_Weapon2,
+	}
+
+	item ButterKnife
+	{
+		MaxRange	=	1,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blade,
+		ConditionLowerChanceOneIn	=	20,
+		Weight	=	1.7,
+		SplatNumber	=	0,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.2,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		WeaponWeight	=	0.3,
+		DisplayName	=	Butter Knife,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		MinDamage	=	0.1,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	KnifeButter,
+	}
+
+	item Hammer
+	{
+		MaxRange	=	1,
+		WeaponSprite	=	Hammer,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blunt,
+		ConditionLowerChanceOneIn	=	30,
+		Weight	=	1,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		DoorDamage	=	9,
+		CanBarricade	=	TRUE,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1,
+		DisplayName	=	Hammer,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	Hammer,
+	}
+
+	item KitchenKnife
+	{
+		MaxRange	=	0.9,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blade,
+		ConditionLowerChanceOneIn	=	30,
+		Weight	=	1.7,
+		SplatNumber	=	0,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.6,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		WeaponWeight	=	1.7,
+		DisplayName	=	Kitchen Knife,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		MinDamage	=	0.3,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	KnifeChopping,
+	}
+
+	item Molotov
+	{
+		OtherHandUse	=	TRUE,
+		MaxRange	=	8,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3.5,
+		SwingAnim	=	null,
+		UseSelf	=	TRUE,
+		DisplayName	=	Molotov Cocktail,
+		SwingTime	=	3.5,
+		SwingAmountBeforeImpact	=	0.1,
+		PhysicsObject	=	MolotovCocktail,
+		MinDamage	=	0,
+		Weight	=	1.5,
+		MaxDamage	=	0,
+		OtherHandRequire	=	Lighter,
+		MaxHitCount	=	0,
+		Icon	=	Molotov,
+	}
+
+	item Pan
+	{
+		MaxRange	=	1.1,
+		WeaponSprite	=	FryingPan,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	True,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	20,
+		Weight	=	2,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	0.7,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		DoorDamage	=	3,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	2,
+		DisplayName	=	Frying Pan,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.3,
+		KnockdownMod	=	1,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Pan,
+	}
+
+	item Pen
+	{
+		MaxRange	=	0.9,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised,
+		ConditionLowerChanceOneIn	=	5,
+		Weight	=	0.1,
+		SplatNumber	=	0,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.1,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		WeaponWeight	=	0.1,
+		DisplayName	=	Pen,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		MinDamage	=	0.1,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Pen,
+	}
+
+	item Pencil
+	{
+		MaxRange	=	0.9,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised,
+		ConditionLowerChanceOneIn	=	1,
+		Weight	=	0.1,
+		SplatNumber	=	0,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.1,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		WeaponWeight	=	0.1,
+		DisplayName	=	Pencil,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		MinDamage	=	0.1,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Pencil,
+	}
+
+	item Pistol
+	{
+		AmmoType	=	BerettaClip,
+		ImpactSound	=	null,
+		MaxRange	=	18,
+		WeaponSprite	=	Handgun,
+		SoundVolume	=	75,
+		MinAngle	=	0.5,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		ToHitModifier	=	1.5,
+		NPCSoundBoost	=	1.5,
+		KnockBackOnNoDeath	=	TRUE,
+		Ranged	=	TRUE,
+		SwingAmountBeforeImpact	=	0,
+		ProjectileCount	=	1,
+		ConditionLowerChanceOneIn	=	60,
+		Weight	=	2,
+		SplatNumber	=	3,
+		PushBackMod	=	0.3,
+		MaxDamage	=	2.8,
+		SubCategory	=	Firearm,
+		ConditionMax	=	10,
+		ShareDamage	=	FALSE,
+		MaxHitCount	=	1,
+		IsAimedFirearm	=	TRUE,
+		DoorDamage	=	5,
+		UseEndurance	=	FALSE,
+		SwingAnim	=	Handgun,
+		WeaponWeight	=	2,
+		DisplayName	=	Pistol,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		MultipleHitConditionAffected	=	FALSE,
+		SwingSound	=	pistol,
+		SoundRadius	=	75,
+		MinDamage	=	1.5,
+		SplatSize	=	3,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HandGun,
+	}
+
+	item Plank
+	{
+		MaxRange	=	2,
+		WeaponSprite	=	WoodPlank,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	4,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	2,
+		Weight	=	3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.6,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	2,
+		DoorDamage	=	5,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3,
+		DisplayName	=	Plank,
+		MinRange	=	0.61,
+		SwingTime	=	4,
+		MinDamage	=	0.4,
+		KnockdownMod	=	1,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Plank,
+	}
+
+	item PlankNail
+	{
+		MaxRange	=	2,
+		WeaponSprite	=	WoodPlank,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	4,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		Weight	=	3.1,
+		SplatNumber	=	0,
+		ConditionLowerChanceOneIn	=	2,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.8,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	2,
+		DoorDamage	=	5,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3.1,
+		MinRange	=	0.61,
+    DisplayName	=	Nailed Plank,
+		SwingTime	=	4,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	PlankNail,
+	}
+
+	item Poolcue
+	{
+		MaxRange	=	1.5,
+		WeaponSprite	=	poolcue,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	1,
+		SplatNumber	=	0,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.7,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	2,
+		DoorDamage	=	2,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1,
+		DisplayName	=	Poolcue,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Poolcue,
+	}
+
+	item Screwdriver
+	{
+		MaxRange	=	0.9,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blade,
+		ConditionLowerChanceOneIn	=	20,
+		Weight	=	0.4,
+		SplatNumber	=	0,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.5,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		WeaponWeight	=	0.4,
+		DisplayName	=	Screwdriver,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		MinDamage	=	0.2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Screwdriver,
+	}
+
+	item Shotgun
+	{
+		AmmoType	=	ShotgunShells,
+		ImpactSound	=	null,
+		MaxRange	=	8,
+		RangeFalloff	=	TRUE,
+		WeaponSprite	=	Shotgun,
+		SoundVolume	=	200,
+		MinAngle	=	0.7,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		ToHitModifier	=	10,
+		NPCSoundBoost	=	1.5,
+		KnockBackOnNoDeath	=	TRUE,
+		Ranged	=	TRUE,
+		SwingAmountBeforeImpact	=	0,
+		ProjectileCount	=	5,
+		ConditionLowerChanceOneIn	=	60,
+		Weight	=	3,
+		SplatNumber	=	5,
+		PushBackMod	=	0.8,
+		MaxDamage	=	2.3,
+		SubCategory	=	Firearm,
+		AimingMod	=	2,
+		ConditionMax	=	10,
+		ShareDamage	=	FALSE,
+		MaxHitCount	=	5,
+		IsAimedHandWeapon	=	TRUE,
+		IsAimedFirearm	=	TRUE,
+		DoorDamage	=	20,
+		IdleAnim	=	Idle_Weapon2,
+		UseEndurance	=	FALSE,
+		SwingAnim	=	Rifle,
+		WeaponWeight	=	3,
+		DisplayName	=	Shotgun,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		AngleFalloff	=	TRUE,
+		MultipleHitConditionAffected	=	FALSE,
+		SwingSound	=	shotgun,
+		SoundRadius	=	200,
+		MinDamage	=	1.8,
+		KnockdownMod	=	8,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	Shotgun2,
+		RunAnim	=	Run_Weapon2,
+	}
+
+	item ShotgunSawnoff
+	{
+		AmmoType	=	ShotgunShells,
+		ImpactSound	=	null,
+		MaxRange	=	6,
+		RangeFalloff	=	TRUE,
+		WeaponSprite	=	ShotgunSawn,
+		SoundVolume	=	250,
+		MinAngle	=	0.9,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		ToHitModifier	=	2.5,
+		NPCSoundBoost	=	1.5,
+		KnockBackOnNoDeath	=	TRUE,
+		Ranged	=	TRUE,
+		SwingAmountBeforeImpact	=	0,
+		ProjectileCount	=	6,
+		ConditionLowerChanceOneIn	=	50,
+		Weight	=	2.5,
+		SplatNumber	=	5,
+		PushBackMod	=	0.9,
+		MaxDamage	=	2,
+		SubCategory	=	Firearm,
+		ConditionMax	=	10,
+		ShareDamage	=	FALSE,
+		MaxHitCount	=	6,
+		IsAimedFirearm	=	TRUE,
+		DoorDamage	=	20,
+		IdleAnim	=	Idle_Weapon2,
+		UseEndurance	=	FALSE,
+		SwingAnim	=	Rifle,
+		CriticalChance	=	20,
+		WeaponWeight	=	2.5,
+		DisplayName	=	Sawn Off Shotgun,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		AngleFalloff	=	TRUE,
+		MultipleHitConditionAffected	=	FALSE,
+		SwingSound	=	shotgun,
+		SoundRadius	=	250,
+		MinDamage	=	1.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	Shotgun,
+		RunAnim	=	Run_Weapon2,
+	}
+
+	item Sledgehammer
+	{
+		MaxRange	=	1.9,
+		WeaponSprite	=	Sledgehammer,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	4,
+		EnduranceMod	=	6,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.04,
+		Categories	=	Blunt,
+		ConditionLowerChanceOneIn	=	50,
+		Weight	=	6,
+		SplatNumber	=	1,
+		PushBackMod	=	1,
+		MaxDamage	=	3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	3,
+		DoorDamage	=	40,
+		IdleAnim	=	Idle_Weapon2,
+		CantAttackWithLowestEndurance	=	TRUE,
+		SwingAnim	=	Sledgehammer,
+		WeaponWeight	=	6,
+		DisplayName	=	Sledgehammer,
+		MinRange	=	0.7,
+		SwingTime	=	4,
+		DoorHitSound	=	sledgehammer,
+		MinDamage	=	2,
+		KnockdownMod	=	3,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Sledgehamer,
+		RunAnim	=	Run_Weapon2,
+	}
+
+
+/************************Normal************************/
+
+	item BarbedWire
+	{
+		Weight	=	2,
+		Type	=	Normal,
+		DisplayName	=	Barbed wire,
+		Icon	=	Wire,
+	}
+
+	item Barricade
+	{
+		Weight	=	13,
+		Type	=	Normal,
+		DisplayName	=	Barricade,
+		Icon	=	Barricade,
+	}
+
+	item Belt
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Belt,
+		Icon	=	Belt,
+	}
+
+	item BerettaClip
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	9mm Magazine,
+		Icon	=	BerettaClip,
+	}
+
+	item Bowl
+	{
+		Weight	=	0.5,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Bowl,
+		ReplaceOnUseOn	=	WaterSource-WaterBowl,
+		Icon	=	Bowl,
+	}
+
+	item BucketEmpty
+	{
+		Weight	=	1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Bucket,
+		Icon	=	Bucket_Empty,
+    ReplaceOnUseOn = WaterSource-BucketWaterFull,
+	}
+
+	item Bullets9mm
+	{
+		Count	=	10,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	9mm Rounds,
+		Icon	=	40calAmmoBox,
+	}
+
+	item Candle
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Candle,
+		Icon	=	Candle,
+	}
+
+	item Coffee
+	{
+		Weight	=	1,
+		Type	=	Normal,
+		DisplayName	=	Coffee,
+		Icon	=	InstantCoffee,
+	}
+
+	item ConcretePowder
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=	Bag of Concrete Powder,
+		Icon	=	Concrete_Powder,
+	}
+
+	item Crate
+	{
+		Weight	=	10,
+		Type	=	Normal,
+		DisplayName	=	Crate,
+		Icon	=	Crate,
+	}
+
+	item DishCloth
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Dish Towel,
+		Icon	=	Dishtowel,
+	}
+
+	item Door
+	{
+		Weight	=	10,
+		Type	=	Normal,
+		DisplayName	=	Door,
+		Icon	=	Door,
+	}
+
+	item DoorFrame
+	{
+		Weight	=	8.5,
+		Type	=	Normal,
+		DisplayName	=	Wooden Door Frame,
+		Icon	=	WallDoor,
+	}
+
+	item Doorknob
+	{
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Doorknob,
+		Icon	=	DoorKnob,
+	}
+
+	item Drawer
+	{
+		Weight	=	3,
+		Type	=	Normal,
+		DisplayName	=	Drawer,
+		Icon	=	Drawer,
+	}
+
+	item Hinge
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Door Hinge,
+		Icon	=	Doorhinge,
+	}
+
+	item KatePic
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Picture of Kate,
+		Icon	=	PictureKate,
+	}
+
+	item Kettle
+	{
+		Weight	=	1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Kettle,
+		ReplaceOnUseOn	=	WaterSource-FullKettle,
+		Icon	=	Kettle,
+	}
+
+	item Log
+	{
+		Weight	=	7,
+		Type	=	Normal,
+		DisplayName	=	Log,
+		Icon	=	Logs,
+	}
+
+	item Mugl
+	{
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Mug,
+		ReplaceOnUseOn	=	WaterSource-WaterMug,
+		Icon	=	Mugl,
+	}
+
+	item Nails
+	{
+		Count	=	5,
+		Weight	=	0.1,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Nails,
+		Icon	=	Nails,
+	}
+
+	item Notebook
+	{
+		Weight	=	1,
+		Type	=	Normal,
+		DisplayName	=	Empty Notebook,
+		Icon	=	Notebook,
+	}
+
+	item Paintbrush
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Paint brush,
+		Icon	=	Paintbrush,
+	}
+
+	item Pillow
+	{
+		Weight	=	0.8,
+		Type	=	Normal,
+		DisplayName	=	Pillow,
+		Icon	=	Pillow,
+	}
+
+	item PistolMagazine
+	{
+		Count	=	12,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Pistol Magazine,
+		Icon	=	BerettaClip,
+	}
+
+	item PlasterPowder
+	{
+		Weight	=	5,
+		Type	=	Normal,
+		DisplayName	=	Bag of Plaster Powder,
+		Icon	=	Plaster_Powder,
+	}
+
+	item PoolBall
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Pool Ball,
+		Icon	=	Poolball,
+	}
+
+	item PopBottleEmpty
+	{
+		Weight	=	0.1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Pop Bottle,
+		ReplaceOnUseOn	=	WaterSource-WaterPopBottle,
+		Icon	=	Pop_empty,
+	}
+
+	item Pot
+	{
+		Weight	=	4,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Cooking Pot,
+		ReplaceOnUseOn	=	WaterSource-WaterPot,
+		Icon	=	Pot,
+	}
+
+	item RippedSheets
+	{
+		CanBandage	=	TRUE,
+		Weight	=	0.05,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Bandages,
+		Icon	=	Rag,
+	}
+
+	item RoastingPan
+	{
+		Weight	=	1.3,
+		Type	=	Normal,
+		DisplayName	=	Roasting Pan,
+		Icon	=	Roastingpan,
+	}
+
+	item Saw
+	{
+		Weight	=	0.7,
+		Type	=	Normal,
+		DisplayName	=	Saw,
+		Icon	=	Hacksaw,
+	}
+
+	item Sheet
+	{
+		Weight	=	0.8,
+		Type	=	Normal,
+		DisplayName	=	Sheet,
+		Icon	=	Sheet,
+	}
+
+	item SheetPaper
+	{
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Sheet of Paper,
+		Icon	=	Paper,
+	}
+
+	item SheetRope
+	{
+		Weight	=	0.8,
+		Type	=	Normal,
+		DisplayName	=	Sheet Rope,
+		Icon	=	SheetRope,
+	}
+
+	item ShotgunShells
+	{
+		Count	=	12,
+		Weight	=	0.1,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Shotgun Shells,
+		Icon	=	ShotgunAmmo,
+	}
+
+	item Socks
+	{
+		Count	=	2,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Sock,
+		Icon	=	Socks1,
+	}
+
+	item Socks2
+	{
+		Count	=	2,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Sock,
+		Icon	=	Socks2,
+	}
+
+	item Stairs
+	{
+		Weight	=	35,
+		Type	=	Normal,
+		DisplayName	=	Stairs Piece,
+		Icon	=	Stairs,
+	}
+
+	item Teabag
+	{
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Tea Bag,
+		Icon	=	Teabag,
+	}
+
+	item TinOpener
+	{
+		Weight	=	0.6,
+		Type	=	Normal,
+		DisplayName	=	Can Opener,
+		Icon	=	CanOpener,
+	}
+
+	item TinnedBeans
+	{
+		HungerChange	=	-30,
+		Weight	=	0.8,
+		Type	=	Normal,
+		DisplayName	=	Canned Beans,
+		Icon	=	Beans,
+	}
+
+	item TunaTin
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Tuna,
+		Icon	=	Tuna,
+	}
+
+	item Wall
+	{
+		Weight	=	13,
+		Type	=	Normal,
+		DisplayName	=	Wall Piece,
+		Icon	=	Wall,
+	}
+
+	item WaterBottleEmpty
+	{
+		Weight	=	0.1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WaterBottleFull,
+		Icon	=	WaterBottle_Empty,
+	}
+
+	item WhiskeyEmpty
+	{
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	WhiskeyEmpty,
+	}
+
+	item WindowFrame
+	{
+		Weight	=	10,
+		Type	=	Normal,
+		DisplayName	=	Wooden Window Frame,
+		Icon	=	WallWindow,
+	}
+
+	item WineEmpty
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		Icon	=	WineEmpty,
+	}
+
+	item WineEmpty2
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		Icon	=	Wine2Empty,
+	}
+
+
+/************************Literature************************/
+
+	item Book
+	{
+		Weight	=	0.5,
+		Type	=	Literature,
+		UnhappyChange	=	-40,
+		DisplayName	=	Book,
+		StressChange	=	-40,
+		Icon	=	Book,
+		BoredomChange	=	-50,
+	}
+
+	item BookCarpentry1
+	{
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Carpentry for Beginners,
+		Icon	=	Book,
+	}
+
+	item BookCarpentry2
+	{
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Carpentry for Intermediates,
+		Icon	=	Book,
+	}
+
+	item Doodle
+	{
+		Weight	=	0.3,
+		Type	=	Literature,
+		UnhappyChange	=	-10,
+		DisplayName	=	Doodle,
+		StressChange	=	-15,
+		Icon	=	Paper,
+		BoredomChange	=	-10,
+	}
+
+	item Journal
+	{
+		Count	=	20,
+		Weight	=	0.3,
+		Type	=	Literature,
+		UnhappyChange	=	-40,
+		DisplayName	=	Journal,
+		StressChange	=	-40,
+		Icon	=	Notebook,
+		BoredomChange	=	-50,
+	}
+
+	item Magazine
+	{
+		Weight	=	0.2,
+		Type	=	Literature,
+		DisplayName	=	Magazine,
+		StressChange	=	-15,
+		Icon	=	Magazine,
+		BoredomChange	=	-20,
+	}
+
+	item Newspaper
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Newspaper,
+		StressChange	=	-15,
+		Icon	=	Newspaper,
+		BoredomChange	=	-15,
+	}
+
+
+/************************Food************************/
+
+	item Apple
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName	=	Apple,
+		Icon	=	Apple,
+		DaysFresh	=	5,
+	}
+
+	item BCCCasserole
+	{
+		HungerChange	=	-70,
+		Type	=	Food,
+		DisplayName	=	Broccoli Chicken Casserole,
+		MinutesToCook	=	40,
+		Weight	=	2,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	80,
+		Icon	=	RoastingpanFull,
+		ReplaceOnUse	=	RoastingPan,
+		BoredomChange	=	-15,
+		DaysFresh	=	2,
+	}
+
+	item Banana
+	{
+		HungerChange	=	-20,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	7,
+		DisplayName	=	Banana,
+		Icon	=	Banana,
+		DaysFresh	=	5,
+	}
+
+	item BeanBowl
+	{
+		HungerChange	=	-30,
+		Weight	=	1.5,
+		Type	=	Food,
+		DaysTotallyRotten	=	4,
+		UnhappyChange	=	-10,
+		DisplayName	=	Bowl of Beans,
+		ReplaceOnUse	=	Bowl,
+		Icon	=	BowlFull,
+		DaysFresh	=	2,
+	}
+
+	item BoringBowl
+	{
+		HungerChange	=	-8,
+		Type	=	Food,
+		DisplayName	=	Boring Bowl of Soup,
+		MinutesToCook	=	13,
+		Weight	=	1,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	3,
+		UnhappyChange	=	-3,
+		MinutesToBurn	=	25,
+		Icon	=	BowlFull,
+		ReplaceOnUse	=	Bowl,
+		DaysFresh	=	1,
+		BoredomChange	=	-2,
+	}
+
+	item BoringSoup
+	{
+		HungerChange	=	-35,
+		Weight	=	5,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		UnhappyChange	=	-10,
+		MinutesToBurn	=	100,
+		DisplayName	=	Boring Soup,
+		ReplaceOnUse	=	Pot,
+		Icon	=	PotFull,
+		MinutesToCook	=	50,
+		BoredomChange	=	-5,
+	}
+
+	item Bread
+	{
+		HungerChange	=	-30,
+		Weight	=	0.3,
+		Type	=	Food,
+		DaysTotallyRotten	=	6,
+		DisplayName	=	Bread,
+		Icon	=	Bread,
+		DaysFresh	=	3,
+	}
+
+	item Broccoli
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	6,
+		DisplayName	=	Broccoli,
+		Icon	=	Broccoli,
+		DaysFresh	=	4,
+	}
+
+	item Butter
+	{
+		HungerChange	=	-30,
+		Weight	=	0.3,
+		Type	=	Food,
+		UnhappyChange	=	20,
+		DisplayName	=	Butter,
+		Icon	=	Butter,
+	}
+
+	item Carrots
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName	=	Carrots,
+		Icon	=	Carrots,
+		DaysFresh	=	6,
+	}
+
+	item Cheese
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	20,
+		DisplayName	=	Cheese,
+		Icon	=	Cheese,
+		DaysFresh	=	14,
+	}
+
+	item CheeseSandwich
+	{
+		HungerChange	=	-50,
+		Weight	=	0.3,
+		Type	=	Food,
+		DisplayName	=	Cheese Sandwich,
+		Icon	=	Sandwich_Cheese,
+		BoredomChange	=	-10,
+	}
+
+	item Chicken
+	{
+		HungerChange	=	-40,
+		Weight	=	0.3,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	60,
+		DisplayName	=	Chicken,
+		Icon	=	Chicken,
+		DaysFresh	=	2,
+		MinutesToCook	=	30,
+	}
+
+	item Chocolate
+	{
+		HungerChange	=	-10,
+		Weight	=	0.2,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		DisplayName	=	Chocolate,
+		Icon	=	Chocolate,
+	}
+
+	item Cigarettes
+	{
+		Count	=	20,
+		HungerChange	=	-5,
+		Weight	=	0.2,
+		RequireInHandOrInventory	=	Lighter,
+		Type	=	Food,
+		UnhappyChange	=	10,
+		DisplayName	=	Cigarettes,
+		StressChange	=	-25,
+		Icon	=	IckySticks,
+	}
+
+	item ComplexBowl
+	{
+		HungerChange	=	-32,
+		Type	=	Food,
+		DisplayName	=	Complex Bowl of Soup,
+		MinutesToCook	=	33,
+		Weight	=	1,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	3,
+		UnhappyChange	=	-8,
+		MinutesToBurn	=	48,
+		Icon	=	BowlFull,
+		ReplaceOnUse	=	Bowl,
+		DaysFresh	=	1,
+		BoredomChange	=	-7,
+	}
+
+	item ComplexSoup
+	{
+		HungerChange	=	-95,
+		Weight	=	6.5,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		UnhappyChange	=	-30,
+		MinutesToBurn	=	190,
+		DisplayName	=	Complicated Soup,
+		ReplaceOnUse	=	Pot,
+		Icon	=	PotFull,
+		MinutesToCook	=	130,
+		BoredomChange	=	-25,
+	}
+
+	item Crisps
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DisplayName	=	Chips,
+		Icon	=	Chips,
+	}
+
+	item Crisps2
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DisplayName	=	Chips,
+		Icon	=	Crisps2,
+	}
+
+	item Crisps3
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DisplayName	=	Chips,
+		Icon	=	Crisps3,
+	}
+
+	item Crisps4
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DisplayName	=	Chips,
+		Icon	=	Crisps4,
+	}
+
+	item Cupcake
+	{
+		HungerChange	=	-20,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Food,
+		DisplayName	=	Cupcake,
+		Icon	=	Cupcake,
+	}
+
+	item Egg
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		Type	=	Food,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	21,
+		DisplayName	=	Egg,
+		Icon	=	Egg,
+		DaysFresh	=	14,
+		CanBandage	=	true,
+	}
+
+	item GrilledCheese
+	{
+		HungerChange	=	-80,
+		Type	=	Food,
+		DisplayName	=	Grilled Cheese Sandwich,
+		MinutesToCook	=	5,
+		Weight	=	0.3,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	4,
+		DangerousUncooked	=	FALSE,
+		MinutesToBurn	=	8,
+		Icon	=	Sandwich_Cheese,
+		BoredomChange	=	-15,
+		DaysFresh	=	2,
+	}
+
+	item HeartyBowl
+	{
+		HungerChange	=	-26,
+		Type	=	Food,
+		DisplayName	=	Hearty Bowl of Soup,
+		MinutesToCook	=	28,
+		Weight	=	1,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	3,
+		UnhappyChange	=	-7,
+		MinutesToBurn	=	40,
+		Icon	=	BowlFull,
+		ReplaceOnUse	=	Bowl,
+		DaysFresh	=	1,
+		BoredomChange	=	-5,
+	}
+
+	item HeartySoup
+	{
+		HungerChange	=	-75,
+		Weight	=	6.5,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		UnhappyChange	=	-25,
+		MinutesToBurn	=	160,
+		DisplayName	=	Hearty Soup,
+		ReplaceOnUse	=	Pot,
+		Icon	=	PotFull,
+		MinutesToCook	=	110,
+		BoredomChange	=	-20,
+	}
+
+	item Lollipop
+	{
+		HungerChange	=	-5,
+		Weight	=	0.1,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		DisplayName	=	Lollipop,
+		Icon	=	Lollipop,
+	}
+
+	item Mugfulll
+	{
+		FatigueChange	=	-5,
+		HungerChange	=	-5,
+		Weight	=	1,
+		Type	=	Food,
+		UnhappyChange	=	-5,
+		ThirstChange	=	-50,
+		DisplayName	=	Hot Cuppa,
+		StressChange	=	-10,
+		ReplaceOnUse	=	Mugl,
+		Icon	=	MugFulll,
+	}
+
+	item OpenBeans
+	{
+		HungerChange	=	-30,
+		Weight	=	0.8,
+		Type	=	Food,
+		DaysTotallyRotten	=	4,
+		UnhappyChange	=	10,
+		DisplayName	=	Open Can of Beans,
+		Icon	=	BeansOpen,
+		DaysFresh	=	2,
+	}
+
+	item Orange
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	9,
+		ThirstChange	=	-20,
+		DisplayName	=	Orange,
+		Icon	=	Orange,
+		DaysFresh	=	6,
+	}
+
+	item PeanutButter
+	{
+		HungerChange	=	-25,
+		Weight	=	0.3,
+		Type	=	Food,
+		UnhappyChange	=	-15,
+		DisplayName	=	Peanut Butter,
+		Icon	=	PeanutButter,
+		BoredomChange	=	-5,
+	}
+
+	item PeanutButterSandwich
+	{
+		HungerChange	=	-40,
+		Weight	=	0.4,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		DisplayName	=	Peanut Butter Sandwich,
+		Icon	=	Sandwich_Peanut,
+	}
+
+	item Peas
+	{
+		HungerChange	=	-20,
+		Weight	=	0.6,
+		Type	=	Food,
+		DaysTotallyRotten	=	5,
+		DisplayName	=	Peas,
+		Icon	=	Peas,
+		DaysFresh	=	3,
+	}
+
+	item Pie
+	{
+		HungerChange	=	-30,
+		Weight	=	0.5,
+		Type	=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName	=	Pie,
+		Icon	=	Pie,
+		DaysFresh	=	5,
+	}
+
+	item Pop
+	{
+		HungerChange	=	-11,
+		Weight	=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		ThirstChange	=	-60,
+		DisplayName	=	Pop,
+		Icon	=	Pop,
+	}
+
+	item Pop2
+	{
+		HungerChange	=	-11,
+		Weight	=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		ThirstChange	=	-60,
+		DisplayName	=	Pop,
+		Icon	=	Pop2,
+	}
+
+	item Pop3
+	{
+		HungerChange	=	-11,
+		Weight	=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		ThirstChange	=	-60,
+		DisplayName	=	Pop,
+		Icon	=	Pop3,
+	}
+
+	item PopBottle
+	{
+		HungerChange	=	-15,
+		Weight	=	0.8,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		ThirstChange	=	-85,
+		DisplayName	=	Orange Soda,
+		ReplaceOnUse	=	PopBottleEmpty,
+		Icon	=	Pop4,
+	}
+
+	item Popcorn
+	{
+		HungerChange	=	-10,
+		Weight	=	0.3,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		MinutesToBurn	=	10,
+		ThirstChange	=	10,
+		DisplayName	=	Instant Popcorn,
+		Icon	=	Popcorn,
+		MinutesToCook	=	5,
+	}
+
+	item PotOfSoup
+	{
+		HungerChange	=	-40,
+		Weight	=	6,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		UnhappyChange	=	-20,
+		MinutesToBurn	=	100,
+		DisplayName	=	Pot of Soup,
+		ReplaceOnUse	=	Pot,
+		Icon	=	PotFull,
+		MinutesToCook	=	50,
+		BoredomChange	=	-10,
+	}
+
+	item Ramen
+	{
+		HungerChange	=	-20,
+		Weight	=	0.2,
+		Type	=	Food,
+		ThirstChange	=	40,
+		DisplayName	=	Dry Ramen Noodles,
+		Icon	=	Ramen,
+	}
+
+	item RamenBowl
+	{
+		HungerChange	=	-20,
+		Type	=	Food,
+		DisplayName	=	Bowl of Ramen Noodles,
+		MinutesToCook	=	10,
+		Weight	=	1,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	3,
+		UnhappyChange	=	-20,
+		MinutesToBurn	=	20,
+		Icon	=	BowlFull,
+		ReplaceOnUse	=	Bowl,
+		DaysFresh	=	1,
+		BoredomChange	=	-10,
+	}
+
+	item Salmon
+	{
+		HungerChange	=	-40,
+		Weight	=	0.3,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	130,
+		DisplayName	=	Salmon,
+		Icon	=	Salmon,
+		DaysFresh	=	2,
+		MinutesToCook	=	80,
+	}
+
+	item SimpleBowl
+	{
+		HungerChange	=	-14,
+		Type	=	Food,
+		DisplayName	=	Simple Bowl of Soup,
+		MinutesToCook	=	24,
+		Weight	=	1,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	3,
+		UnhappyChange	=	-4,
+		MinutesToBurn	=	30,
+		Icon	=	BowlFull,
+		ReplaceOnUse	=	Bowl,
+		DaysFresh	=	1,
+		BoredomChange	=	-3,
+	}
+
+	item SimpleSoup
+	{
+		HungerChange	=	-45,
+		Weight	=	5.5,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		UnhappyChange	=	-15,
+		MinutesToBurn	=	120,
+		DisplayName	=	Simple Soup,
+		ReplaceOnUse	=	Pot,
+		Icon	=	PotFull,
+		MinutesToCook	=	70,
+		BoredomChange	=	-10,
+	}
+
+	item SoupBowl
+	{
+		HungerChange	=	-15,
+		Type	=	Food,
+		DisplayName	=	Bowl of Soup,
+		MinutesToCook	=	15,
+		Weight	=	1,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	3,
+		UnhappyChange	=	-20,
+		MinutesToBurn	=	25,
+		Icon	=	BowlFull,
+		ReplaceOnUse	=	Bowl,
+		DaysFresh	=	1,
+		BoredomChange	=	-10,
+	}
+
+	item Steak
+	{
+		HungerChange	=	-40,
+		Weight	=	0.3,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	70,
+		DisplayName	=	Steak,
+		Icon	=	Steak,
+		DaysFresh	=	2,
+		MinutesToCook	=	50,
+	}
+
+	item TVDinner
+	{
+		HungerChange	=	-20,
+		Weight	=	0.4,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		UnhappyChange	=	25,
+		MinutesToBurn	=	15,
+		DisplayName	=	TV Dinner,
+		Icon	=	TVDinner,
+		MinutesToCook	=	10,
+		BoredomChange	=	30,
+	}
+
+	item TastyBowl4
+	{
+		Count	=	4,
+		HungerChange	=	-20,
+		Type	=	Food,
+		DisplayName	=	Tasty Bowl of Soup,
+		MinutesToCook	=	23,
+		Weight	=	1,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	3,
+		UnhappyChange	=	-5,
+		MinutesToBurn	=	35,
+		Icon	=	BowlFull,
+		ReplaceOnUse	=	Bowl,
+		DaysFresh	=	1,
+		BoredomChange	=	-4,
+	}
+
+	item TastySoup
+	{
+		HungerChange	=	-55,
+		Weight	=	6,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		UnhappyChange	=	-20,
+		MinutesToBurn	=	140,
+		DisplayName	=	Tasty Soup,
+		ReplaceOnUse	=	Pot,
+		Icon	=	PotFull,
+		MinutesToCook	=	90,
+		BoredomChange	=	-15,
+	}
+
+	item TinnedSoup
+	{
+		HungerChange	=	-30,
+		Weight	=	0.8,
+		RequireInHandOrInventory	=	TinOpener,
+		Type	=	Food,
+		DisplayName	=	Canned Soup,
+		Icon	=	TinCan,
+	}
+
+	item TunaTinOpen
+	{
+		HungerChange	=	-20,
+		Weight	=	0.3,
+		Type	=	Food,
+		DaysTotallyRotten	=	4,
+		DisplayName	=	Open Tin of Tuna,
+		Icon	=	TunaOpen,
+		DaysFresh	=	2,
+	}
+
+	item Watermelon
+	{
+		HungerChange	=	-60,
+		Weight	=	0.9,
+		Type	=	Food,
+		DaysTotallyRotten	=	10,
+		ThirstChange	=	-140,
+		DisplayName	=	Watermelon,
+		Icon	=	Watermelon,
+		DaysFresh	=	7,
+	}
+
+	item WatermelonSliced
+	{
+		HungerChange	=	-10,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	2,
+		ThirstChange	=	-20,
+		DisplayName	=	Watermelon Slice,
+		Icon	=	WatermelonSliced,
+		DaysFresh	=	1,
+	}
+
+	item WatermelonSmashed
+	{
+		HungerChange	=	-25,
+		Weight	=	0.5,
+		Type	=	Food,
+		DaysTotallyRotten	=	2,
+		ThirstChange	=	-25,
+		DisplayName	=	Watermelon Chunks,
+		Icon	=	WatermelonSmashed,
+		DaysFresh	=	1,
+	}
+
+	item WhiskeyFull
+	{
+		Weight	=	1.4,
+		Type	=	Food,
+		ThirstChange	=	-20,
+		DisplayName	=	Whiskey Bottle (full),
+		Alcoholic	=	TRUE,
+		ReplaceOnUse	=	WhiskeyHalf,
+		Icon	=	WhiskeyFull,
+	}
+
+	item WhiskeyHalf
+	{
+		Weight	=	0.7,
+		Type	=	Food,
+		ThirstChange	=	-20,
+		DisplayName	=	Whiskey Bottle (half),
+		Alcoholic	=	TRUE,
+		ReplaceOnUse	=	WhiskeyEmpty,
+		Icon	=	WhiskeyHalf,
+	}
+
+
+/************************Drainable************************/
+
+	item Battery
+	{
+		Weight	=	0.6,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Battery,
+		Icon	=	Battery,
+	}
+
+	item BucketConcreteFull
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	10,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Bucket with concrete,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	Concrete_Mixed,
+	}
+
+	item BucketPlasterFull
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	10,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Bucket with plaster,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	Plaster_Mixed,
+	}
+
+	item BucketWaterFull
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	6,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		DisplayName	=	Bucket with water,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	Bucket_Water,
+	}
+
+	item CandleLit
+	{
+		LightDistance	=	3,
+		Weight	=	0.2,
+		Type	=	Drainable,
+		TorchCone	=	FALSE,
+		UseDelta	=	0.003,
+		LightStrength	=	0.6,
+		DisplayName	=	Lit Candle,
+		ActivatedItem	=	TRUE,
+		Icon	=	CandleLit,
+	}
+
+	item Flour
+	{
+		Weight	=	1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Flour,
+		Icon	=	Flour,
+	}
+
+	item FullKettle
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.07,
+		DisplayName	=	A Full Kettle,
+		ReplaceOnDeplete	=	Kettle,
+		ReplaceOnUseOn	=	WaterSource-FullKettle,
+		Icon	=	Kettle,
+	}
+
+	item Gravelbag
+	{
+		Weight	=	3,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Gravel bag,
+		Icon	=	Gravelbag,
+	}
+
+	item Lighter
+	{
+		LightDistance	=	2,
+		Weight	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		TorchCone	=	FALSE,
+		LightStrength	=	0.4,
+		DisplayName	=	Lighter,
+		ActivatedItem	=	TRUE,
+		Icon	=	Lighter,
+	}
+
+	item Matches
+	{
+		Weight	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Matches,
+		Icon	=	Matches,
+	}
+
+	item PaintBlue
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Blue Paint,
+		Icon	=	Paint_Blue,
+	}
+
+	item PaintBrown
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Brown Paint,
+		Icon	=	Paint_Brown,
+	}
+
+	item PaintCyan
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Cyan Paint,
+		Icon	=	Paint_Cyan,
+	}
+
+	item PaintGreen
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Green Paint,
+		Icon	=	Paint_Green,
+	}
+
+	item PaintGrey
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Grey Paint,
+		Icon	=	Paint_Grey,
+	}
+
+	item PaintLightBlue
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Light Blue Paint,
+		Icon	=	Paint_LightBlue,
+	}
+
+	item PaintLightBrown
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Light Brown Paint,
+		Icon	=	Paint_LightBrown,
+	}
+
+	item PaintOrange
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Orange Paint,
+		Icon	=	Paint_Orange,
+	}
+
+	item PaintPink
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Pink Paint,
+		Icon	=	Paint_Pink,
+	}
+
+	item PaintPurple
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Purple Paint,
+		Icon	=	Paint_Purple,
+	}
+
+	item PaintTurquoise
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Turquoise Paint,
+		Icon	=	Paint_Turquoise,
+	}
+
+	item PaintWhite
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	White Paint,
+		Icon	=	Paint_White,
+	}
+
+	item PaintYellow
+	{
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Yellow Paint,
+		Icon	=	Paint_Yellow,
+	}
+
+	item PetrolCan
+	{
+		Weight	=	10,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.125,
+		DisplayName	=	Gas Can,
+		Icon	=	Petrol,
+	}
+
+	item Pills
+	{
+		Weight	=	0.2,
+		Type	=	Drainable,
+    UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Painkillers,
+		Icon	=	PillsPainkiller,
+	}
+
+	item PillsAntiDep
+	{
+		Weight	=	0.2,
+		Type	=	Drainable,
+    UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Anti-depressants,
+		Icon	=	PillsAntidepressant,
+	}
+
+	item PillsBeta
+	{
+		Weight	=	0.2,
+		Type	=	Drainable,
+    UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Beta Blockers,
+		Icon	=	PillsBetablocker,
+	}
+
+	item PillsSleepingTablets
+	{
+		Weight	=	0.2,
+		Type	=	Drainable,
+    UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Sleeping Tablets,
+		Icon	=	PillsSleeping,
+	}
+
+	item Sandbag
+	{
+		Weight	=	9,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Sand bag,
+		Icon	=	Sandbag,
+	}
+
+	item Sugar
+	{
+		Weight	=	1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.16,
+		DisplayName	=	Sugar,
+		Icon	=	Sugar,
+	}
+
+	item Tissue
+	{
+		Weight	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Tissue,
+		Icon	=	Tissue,
+	}
+
+	item Torch
+	{
+		LightDistance	=	16,
+		Weight	=	2,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.0009,
+		LightStrength	=	0.8,
+		DisplayName	=	Flashlight,
+		ActivatedItem	=	TRUE,
+		Icon	=	Flashlight,
+	}
+
+	item WaterBottleFull
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.8,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Water bottle,
+		ReplaceOnDeplete	=	WaterBottleEmpty,
+		ReplaceOnUseOn	=	WaterSource-WaterBottleFull,
+		Icon	=	WaterBottle_Full,
+	}
+
+	item WaterBowl
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	1.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.5,
+		DisplayName	=	Bowl of Water,
+		ReplaceOnDeplete	=	Bowl,
+		ReplaceOnUseOn	=	WaterSource-WaterBowl,
+		Icon	=	BowlFull,
+	}
+
+	item WaterMug
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	1,
+		DisplayName	=	A Mug of Water,
+		ReplaceOnDeplete	=	Mugl,
+		ReplaceOnUseOn	=	WaterSource-WaterMug,
+		Icon	=	Mugl,
+	}
+
+	item WaterPopBottle
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.8,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Water Bottle,
+		ReplaceOnDeplete	=	PopBottleEmpty,
+		ReplaceOnUseOn	=	WaterSource-WaterPopBottle,
+		Icon	=	Pop_water,
+	}
+
+	item WaterPot
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	5,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.04,
+		DisplayName	=	A Pot of Water,
+		ReplaceOnDeplete	=	Pot,
+		ReplaceOnUseOn	=	WaterSource-WaterPot,
+		Icon	=	Pot,
+	}
+
+	item WhiskeyWaterFull
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	1.4,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.08,
+		DisplayName	=	Water bottle,
+		ReplaceOnDeplete	=	WhiskeyEmpty,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	Whiskey_Water_Full,
+	}
+
+
+/************************Container************************/
+
+	item Schoolbag
+	{
+		WeightReduction	=	80,
+		Weight	=	0.5,
+		Type	=	Container,
+		Capacity	=	15,
+		DisplayName	=	Schoolbag,
+		Icon	=	Backpack,
+	}
+
+
+/************************Clothing************************/
+
+	item Vest
+	{
+		Palettes	=	Vest_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Vest_,
+		Type	=	Clothing,
+		Temperature	=	5,
+		SpriteName	=	Vest,
+		DisplayName	=	Vest,
+		Icon	=	Vest,
+	}
+
+	item Shirt
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type	=	Clothing,
+		Temperature	=	15,
+		SpriteName	=	Shirt,
+		DisplayName	=	Sweater,
+		Icon	=	Sweater,
+	}
+
+	item Blouse
+	{
+		Palettes	=	Blouse_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Blouse_,
+		Type	=	Clothing,
+		Temperature	=	6,
+		SpriteName	=	Blouse,
+		DisplayName	=	Blouse,
+		Icon	=	Sweater,
+	}
+
+	item Trousers
+	{
+		Palettes	=	Trousers_White,
+		BodyLocation	=	Bottoms,
+		PalettesStart	=	Trousers_,
+		Type	=	Clothing,
+		Temperature	=	8,
+		SpriteName	=	Trousers,
+		DisplayName	=	Pants,
+		Icon	=	Trousers,
+	}
+
+	item Skirt
+	{
+		Palettes	=	Skirt_White,
+		BodyLocation	=	Bottoms,
+		PalettesStart	=	Skirt_,
+		Type	=	Clothing,
+		Temperature	=	5,
+		SpriteName	=	Skirt,
+		DisplayName	=	Skirt,
+		Icon	=	Skirt,
+	}
+
+	item Shoes
+	{
+		BodyLocation	=	Shoes,
+		Type	=	Clothing,
+		Temperature	=	3,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Shoes,
+		Icon	=	Shoes,
+	}
+
+
+
+
+
+
+
+
+
+	
+
+}
+

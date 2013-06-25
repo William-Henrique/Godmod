@@ -1,0 +1,672 @@
+module Base
+{
+	/******Project Zomboid\media\scripts\newitems.txt******/
+
+/************************Weapon************************/
+
+	item Crowbar
+	{
+		MaxRange	=	1.2,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blunt,
+		Weight	=	4,
+		ConditionLowerChanceOneIn	=	50,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		DoorDamage	=	5,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	4,
+		DisplayName	=	Crowbar,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		Icon	=	Crowbar,
+		RunAnim	=	Run_Weapon2,
+	}
+
+	item Fork
+	{
+		MaxRange	=	0.6,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blade,
+		Weight	=	0.3,
+		ConditionLowerChanceOneIn	=	20,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.1,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		CriticalChance	=	5,
+		WeaponWeight	=	0.3,
+		DisplayName	=	Fork,
+		MinRange	=	0.2,
+		SwingTime	=	2,
+		MinDamage	=	0.1,
+		KnockdownMod	=	0,
+		Icon	=	Fork,
+	}
+
+	item Golfclub
+	{
+		MaxRange	=	1.5,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blunt,
+		Weight	=	4,
+		ConditionLowerChanceOneIn	=	15,
+		PushBackMod	=	0.6,
+		MaxDamage	=	0.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		DoorDamage	=	5,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	4,
+		DisplayName	=	Golfclub,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.3,
+		KnockdownMod	=	0,
+		Icon	=	Golfclub,
+		RunAnim	=	Run_Weapon2,
+	}
+
+	item RollingPin
+	{
+		MaxRange	=	1,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blunt,
+		Weight	=	1.5,
+		ConditionLowerChanceOneIn	=	10,
+		PushBackMod	=	0.5,
+		MaxDamage	=	0.4,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		DoorDamage	=	5,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Rolling Pin,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.2,
+		KnockdownMod	=	0,
+		Icon	=	RollingPin,
+		RunAnim	=	Run_Weapon2,
+	}
+
+	item Scissors
+	{
+		MaxRange	=	0.9,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blade,
+		Weight	=	0.4,
+		ConditionLowerChanceOneIn	=	20,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		CriticalChance	=	5,
+		WeaponWeight	=	0.4,
+		DisplayName	=	Scissors,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		MinDamage	=	0.2,
+		KnockdownMod	=	0,
+		Icon	=	Scissors,
+	}
+
+	item Spoon
+	{
+		MaxRange	=	0.6,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blade,
+		Weight	=	0.3,
+		ConditionLowerChanceOneIn	=	20,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.1,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		CriticalChance	=	5,
+		WeaponWeight	=	0.3,
+		DisplayName	=	Spoon,
+		MinRange	=	0.2,
+		SwingTime	=	2,
+		MinDamage	=	0.1,
+		KnockdownMod	=	0,
+		Icon	=	Spoon,
+	}
+
+
+/************************Normal************************/
+
+	item Bandage
+	{
+		Count	=	1,
+		Weight	=	0.25,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Normal,
+		DisplayName	=	Bandage,
+		Icon	=	Bandage,
+		CanBandage	=	true,
+	}
+
+	item Bleach
+	{
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Bleach,
+		Icon	=	Bleach,
+	}
+
+	item CardDeck
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Playing Cards,
+		Icon	=	CardDeck,
+	}
+
+	item Comb
+	{
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Comb,
+		Icon	=	Comb,
+	}
+
+	item Dice
+	{
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Dice,
+		Icon	=	Dice,
+	}
+
+	item Dogfood
+	{
+		Weight	=	1,
+		Type	=	Normal,
+		DisplayName	=	Dogfood,
+		Icon	=	Dogfood,
+	}
+
+	item Lipstick
+	{
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Lipstick,
+		Icon	=	Lipstick,
+	}
+
+	item Locket
+	{
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Locket,
+		Icon	=	Locket,
+	}
+
+	item Mirror
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Mirror,
+		Icon	=	Mirror,
+	}
+
+	item Radio
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Radio,
+		Icon	=	Radio,
+	}
+
+	item Razor
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Razor,
+		Icon	=	Razor,
+	}
+
+	item String
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	String,
+		Icon	=	String,
+	}
+
+	item ToyBear
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Toy Bear,
+		Icon	=	ToyBear,
+	}
+
+	item PillsVitamins
+	{
+    FatigueChange	=	-2,
+		Weight	=	0.2,
+    UseDelta	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Vitamins,
+		Icon	=	Vitamins,
+	}
+
+	item Wallet
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_01,
+	}
+
+	item Wallet2
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_02,
+	}
+
+	item Wallet3
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_03,
+	}
+
+	item Wallet4
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wallet,
+		Icon	=	Wallet_04,
+	}
+
+	item WeddingRing_Man
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wedding Ring,
+		Icon	=	WeddingRing_Man,
+	}
+
+	item WeddingRing_Woman
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wedding Ring,
+		Icon	=	WeddingRing_Woman,
+	}
+
+	item Wire
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Wire,
+		Icon	=	Wire,
+	}
+
+	item Yoyo
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Yoyo,
+		Icon	=	Yoyo,
+	}
+
+
+/************************Food************************/
+
+	item BeefJerky
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Beef Jerky,
+		Icon	=	BeefJerky,
+	}
+
+	item BerryBlack
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Berry,
+		Icon	=	BerryBlack,
+	}
+
+	item BerryBlue
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Berry,
+		Icon	=	BerryBlue,
+	}
+
+	item BerryGeneric1
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Berry,
+		Icon	=	BerryGeneric1,
+	}
+
+	item BerryGeneric2
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Berry,
+		Icon	=	BerryGeneric2,
+	}
+
+	item BerryGeneric3
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Berry,
+		Icon	=	BerryGeneric3,
+	}
+
+	item BerryGeneric4
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Berry,
+		Icon	=	BerryGeneric4,
+	}
+
+	item BerryGeneric5
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Berry,
+		Icon	=	BerryGeneric5,
+	}
+
+	item BerryPoisonIvy
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Berry,
+		Icon	=	BerryPoisonIvy,
+	}
+
+	item Candycane
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Candycane,
+		Icon	=	Candycane,
+	}
+
+	item Cereal
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Cereal,
+		Icon	=	Cereal,
+	}
+
+	item DeadRat
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		UnhappyChange	=	30,
+		DisplayName	=	Dead Rat,
+		Icon	=	DeadRat,
+	}
+
+	item DogfoodOpen
+	{
+		HungerChange	=	-30,
+		Weight	=	1,
+		Type	=	Food,
+		DaysTotallyRotten	=	7,
+		UnhappyChange	=	50,
+		DisplayName	=	Open Dogfood,
+		Icon	=	DogfoodOpen,
+		DaysFresh	=	5,
+	}
+
+	item Icecream
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Icecream,
+		Icon	=	Icecream,
+	}
+
+	item Lemon
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	9,
+		DisplayName	=	Lemon,
+		Icon	=	Lemon,
+		DaysFresh	=	7,
+	}
+
+	item Milk
+	{
+		HungerChange	=	-10,
+		Weight	=	0.3,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		ThirstChange	=	-100,
+		DisplayName	=	Milk,
+		Icon	=	Milk,
+	}
+
+	item MushroomGeneric1
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Mushroom,
+		Icon	=	MushroomGeneric1,
+	}
+
+	item MushroomGeneric2
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Mushroom,
+		Icon	=	MushroomGeneric2,
+	}
+
+	item MushroomGeneric3
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Mushroom,
+		Icon	=	MushroomGeneric3,
+	}
+
+	item MushroomGeneric4
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Mushroom,
+		Icon	=	MushroomGeneric4,
+	}
+
+	item MushroomGeneric5
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Mushroom,
+		Icon	=	MushroomGeneric5,
+	}
+
+	item MushroomGeneric6
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Mushroom,
+		Icon	=	MushroomGeneric6,
+	}
+
+	item MushroomGeneric7
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Mushroom,
+		Icon	=	MushroomGeneric7,
+	}
+
+	item Onion
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		Type	=	Food,
+		DaysTotallyRotten	=	9,
+		DisplayName	=	Onion,
+		Icon	=	Onion,
+		DaysFresh	=	7,
+	}
+
+	item Strawberry
+	{
+		HungerChange	=	-15,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Strawberry,
+		Icon	=	BerryStraw,
+	}
+
+
+/************************Container************************/
+
+	item Duffelbag
+	{
+		WeightReduction	=	80,
+		Weight	=	0.5,
+		Type	=	Container,
+		Capacity	=	30,
+		DisplayName	=	Duffelbag,
+		Icon	=	Duffelbag,
+	}
+
+	item Plasticbag
+	{
+		WeightReduction	=	70,
+		Weight	=	0.1,
+		Type	=	Container,
+		Capacity	=	8,
+		DisplayName	=	Plastic Bag,
+		Icon	=	Plasticbag,
+	}
+
+	item Tote
+	{
+		WeightReduction	=	70,
+		Weight	=	0.5,
+		Type	=	Container,
+		Capacity	=	15,
+		DisplayName	=	Tote Bag,
+		Icon	=	Tote,
+	}
+
+
+
+	
+
+}
+
