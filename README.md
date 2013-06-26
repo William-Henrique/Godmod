@@ -1,4 +1,4 @@
-GiveItems
+Godmod And Spawn Items
 =========
 Tested in Project Zomboid RC2.9 Build 0008b (0.2.9) (latest stable beta)
 
