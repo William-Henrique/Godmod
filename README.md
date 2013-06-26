@@ -2,7 +2,7 @@ GiveItems
 =========
 Tested in Project Zomboid RC2.9 Build 0008b (0.2.9) (latest stable beta)
 
-My Twitter, William Henrique [@Will_Sn0w](https://twitter.com/Will_Sn0w)
+My Twitter, William Henrique <a href="https://twitter.com/Will_Sn0w" target="_blank">@Will_Sn0w</a>
 
 How can i run it?
 ====================
