@@ -7,7 +7,7 @@ My Twitter, William Henrique <a href="https://twitter.com/Will_Sn0w" target="_bl
 How can i run it?
 ====================
 
-Just drag the file <code>giveitems.lua</code> in your Project Zomboid directory: <code>\Project Zomboid\media\lua</code>
+Just drag the file <code>godmod.lua</code> in your Project Zomboid directory: <code>\Project Zomboid\media\lua</code>
 
 Run the game.
 
