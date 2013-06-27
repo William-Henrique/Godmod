@@ -1,6 +1,6 @@
 Godmod And Spawn Items
 =========
-Tested in Project Zomboid RC2.9 Build 0008b (0.2.9) (latest stable beta)
+Tested in Project Zomboid RC2.9 Build 0008b (0.2.9) (latest stable version)
 
 My Twitter, William Henrique <a href="https://twitter.com/Will_Sn0w" target="_blank">@Will_Sn0w</a>
 
