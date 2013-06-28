@@ -105,21 +105,9 @@ if isKeyDown(Keyboard.KEY_E) and
 isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Sheet");
 end
-if isKeyDown(Keyboard.KEY_R) and
-isKeyDown(Keyboard.KEY_F4) then
-character:getInventory():AddItem("Base.Wall");
-end
-if isKeyDown(Keyboard.KEY_V) and
-isKeyDown(Keyboard.KEY_F4) then
-character:getInventory():AddItem("Base.WaterBottleFull");
-end
 if isKeyDown(Keyboard.KEY_C) and
 isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Newspaper");
-end
-if isKeyDown(Keyboard.KEY_G) and
-isKeyDown(Keyboard.KEY_F4) then
-character:getInventory():AddItem("Base.Molotov");
 end
 if isKeyDown(Keyboard.KEY_J) and
 isKeyDown(Keyboard.KEY_F4) then
