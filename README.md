@@ -31,11 +31,6 @@ R + F1 Chocolate
 
 T + F1 Crisps
 
-L + F1 Pills
-
-Z + F1 Plank
-
-
 
 F2 is for Building materials
 ----------------------------
@@ -51,8 +46,6 @@ R + F2 Sledgehammer
 T + F2 Axe
 
 
-
-
 F3 is for Weapons 
 -----------------
 
@@ -66,34 +59,16 @@ R + F3 Bullets9mm
 
 T + F3 Pistol
 
-O + F3 Stairs
 
-I + F3 Door
-
-L + F3 DoorFrame
-
-U + F3 WindowFrame
-
-H + F3 Saw
-
-
-
-
-F5 is for Miscellaneous
+F4 is for Miscellaneous
 -----------------------
 
-Q + F5 Torch
+Q + F4 Torch
 
-W + F5 Battery
+W + F4 Battery
 
-E + F5 Sheet
+E + F4 Sheet
 
-R + F5 Wall
+C + F4 Newspaper
 
-V + F5 WaterBottleFull
-
-C + F5 Newspaper
-
-G + F5 Molotov
-
-J + F5 Lighter
+J + F4 Lighter
