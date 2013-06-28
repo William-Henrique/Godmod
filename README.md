@@ -29,7 +29,7 @@ E + F1 Orange
 
 R + F1 Chocolate
 
-T + F1 Crisps
+T + F1 Chips
 
 
 F2 is for Building materials
@@ -49,13 +49,13 @@ T + F2 Axe
 F3 is for Weapons 
 -----------------
 
-Q + F3 KitchenKnife
+Q + F3 Kitchen Knife
 
 W+ F3 Shotgun
 
-E + F3 ShotgunShells
+E + F3 Shotgun Shells
 
-R + F3 Bullets9mm
+R + F3 9mm Rounds
 
 T + F3 Pistol
 
@@ -63,7 +63,7 @@ T + F3 Pistol
 F4 is for Miscellaneous
 -----------------------
 
-Q + F4 Torch
+Q + F4 Flashlight
 
 W + F4 Battery
 
