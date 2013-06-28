@@ -69,6 +69,6 @@ W + F4 Battery
 
 E + F4 Sheet
 
-C + F4 Newspaper
+R + F4 Newspaper
 
-J + F4 Lighter
+T + F4 Lighter
