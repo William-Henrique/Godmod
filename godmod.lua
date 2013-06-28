@@ -21,6 +21,8 @@ function GodMode(player)
 end
 
 function AddItem(character)
+   
+   --F1 is for Food
 
 if isKeyDown(Keyboard.KEY_Q) and
 isKeyDown(Keyboard.KEY_F1) then
@@ -41,14 +43,6 @@ end
 if isKeyDown(Keyboard.KEY_T) and
 isKeyDown(Keyboard.KEY_F1) then
 character:getInventory():AddItem("Base.Crisps");
-end
-if isKeyDown(Keyboard.KEY_L) and
-isKeyDown(Keyboard.KEY_F1) then
-character:getInventory():AddItem("Base.Pills");
-end
-if isKeyDown(Keyboard.KEY_Z) and
-isKeyDown(Keyboard.KEY_F1) then
-character:getInventory():AddItem("Base.Plank");
 end
 
 --F2 is for Building materials
@@ -96,59 +90,39 @@ if isKeyDown(Keyboard.KEY_T) and
 isKeyDown(Keyboard.KEY_F3) then
 character:getInventory():AddItem("Base.Pistol");
 end
-if isKeyDown(Keyboard.KEY_O) and
-isKeyDown(Keyboard.KEY_F3) then
-character:getInventory():AddItem("Base.Stairs");
-end
-if isKeyDown(Keyboard.KEY_I) and
-isKeyDown(Keyboard.KEY_F3) then
-character:getInventory():AddItem("Base.Door");
-end
-if isKeyDown(Keyboard.KEY_L) and
-isKeyDown(Keyboard.KEY_F3) then
-character:getInventory():AddItem("Base.DoorFrame");
-end
-if isKeyDown(Keyboard.KEY_U) and
-isKeyDown(Keyboard.KEY_F3) then
-character:getInventory():AddItem("Base.WindowFrame");
-end
-if isKeyDown(Keyboard.KEY_H) and
-isKeyDown(Keyboard.KEY_F3) then
-character:getInventory():AddItem("Base.Saw");
-end
 
---F5 is for Miscalleneous
+--F4 is for Miscalleneous
 
 if isKeyDown(Keyboard.KEY_Q) and
-isKeyDown(Keyboard.KEY_F5) then
+isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Torch");
 end
 if isKeyDown(Keyboard.KEY_W) and
-isKeyDown(Keyboard.KEY_F5) then
+isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Battery");
 end
 if isKeyDown(Keyboard.KEY_E) and
-isKeyDown(Keyboard.KEY_F5) then
+isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Sheet");
 end
 if isKeyDown(Keyboard.KEY_R) and
-isKeyDown(Keyboard.KEY_F5) then
+isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Wall");
 end
 if isKeyDown(Keyboard.KEY_V) and
-isKeyDown(Keyboard.KEY_F5) then
+isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.WaterBottleFull");
 end
 if isKeyDown(Keyboard.KEY_C) and
-isKeyDown(Keyboard.KEY_F5) then
+isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Newspaper");
 end
 if isKeyDown(Keyboard.KEY_G) and
-isKeyDown(Keyboard.KEY_F5) then
+isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Molotov");
 end
 if isKeyDown(Keyboard.KEY_J) and
-isKeyDown(Keyboard.KEY_F5) then
+isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Lighter");
 end
 end
