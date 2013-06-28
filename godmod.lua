@@ -105,11 +105,11 @@ if isKeyDown(Keyboard.KEY_E) and
 isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Sheet");
 end
-if isKeyDown(Keyboard.KEY_C) and
+if isKeyDown(Keyboard.KEY_R) and
 isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Newspaper");
 end
-if isKeyDown(Keyboard.KEY_J) and
+if isKeyDown(Keyboard.KEY_T) and
 isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Lighter");
 end
