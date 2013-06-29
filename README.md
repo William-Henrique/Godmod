@@ -74,3 +74,16 @@ E + F4 Sheet
 R + F4 Newspaper
 
 T + F4 Lighter
+
+
+F5 is for Pills
+---------------
+
+Q + F5 Painkillers
+
+W + F5 Anti-depressants
+
+E + F5 Beta Blockers
+
+R + F5 Sleeping Tablets
+
