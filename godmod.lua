@@ -68,7 +68,7 @@ isKeyDown(Keyboard.KEY_F2) then
 character:getInventory():AddItem("Base.Axe");
 end
 
---F3 is for Weapons and that jazz
+--F3 is for Weapons
 
 if isKeyDown(Keyboard.KEY_Q) and
 isKeyDown(Keyboard.KEY_F3) then
@@ -112,6 +112,25 @@ end
 if isKeyDown(Keyboard.KEY_T) and
 isKeyDown(Keyboard.KEY_F4) then
 character:getInventory():AddItem("Base.Lighter");
+end
+
+--F5 is for Pills
+
+if isKeyDown(Keyboard.KEY_Q) and
+isKeyDown(Keyboard.KEY_F5) then
+character:getInventory():AddItem("Base.Pills");
+end
+if isKeyDown(Keyboard.KEY_W) and
+isKeyDown(Keyboard.KEY_F5) then
+character:getInventory():AddItem("Base.PillsAntiDep");
+end
+if isKeyDown(Keyboard.KEY_E) and
+isKeyDown(Keyboard.KEY_F5) then
+character:getInventory():AddItem("Base.PillsBeta");
+end
+if isKeyDown(Keyboard.KEY_R) and
+isKeyDown(Keyboard.KEY_F5) then
+character:getInventory():AddItem("Base.PillsSleepingTablets");
 end
 end
 
