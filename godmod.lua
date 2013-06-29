@@ -44,6 +44,10 @@ if isKeyDown(Keyboard.KEY_T) and
 isKeyDown(Keyboard.KEY_F1) then
 character:getInventory():AddItem("Base.Crisps");
 end
+if isKeyDown(Keyboard.KEY_Y) and
+isKeyDown(Keyboard.KEY_F1) then
+character:getInventory():AddItem("Base.WaterBottleFull");
+end
 
 --F2 is for Building materials
 
@@ -67,6 +71,10 @@ if isKeyDown(Keyboard.KEY_T) and
 isKeyDown(Keyboard.KEY_F2) then
 character:getInventory():AddItem("Base.Axe");
 end
+if isKeyDown(Keyboard.KEY_Y) and
+isKeyDown(Keyboard.KEY_F2) then
+character:getInventory():AddItem("Base.Wall");
+end
 
 --F3 is for Weapons
 
@@ -89,6 +97,10 @@ end
 if isKeyDown(Keyboard.KEY_T) and
 isKeyDown(Keyboard.KEY_F3) then
 character:getInventory():AddItem("Base.Pistol");
+end
+if isKeyDown(Keyboard.KEY_Y) and
+isKeyDown(Keyboard.KEY_F3) then
+character:getInventory():AddItem("Base.Molotov");
 end
 
 --F4 is for Miscalleneous
