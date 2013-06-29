@@ -11,9 +11,9 @@ Just drag the file <code>godmod.lua</code> in your Project Zomboid directory: <c
 
 Run the game.
 
-After you load your save game, hold two keys of object. It will spawn in your inventory.
+After you load your save game, hold two keys of the object. It will spawn in your inventory.
 
-(Ah, ignore the others files, it's just for me, because it's hard open the folder every time to get the data :D)
+(Ah, ignore the others files, it's just for me, because is boring opening the folder every time to get the data :D)
 
 Commands
 ========
