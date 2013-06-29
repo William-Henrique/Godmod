@@ -13,6 +13,8 @@ Run the game.
 
 After you load your save game, hold two keys of object. It will spawn in your inventory.
 
+(Ah, ignore the others files, it's just for me, because it's hard open the folder every time to get the data :D)
+
 Commands
 ========
 
